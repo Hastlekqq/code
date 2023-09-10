@@ -1,0 +1,29 @@
+# Запит прізвища, імені та по батькові
+surname = input("Введіть вше прізвище")
+first_name = input("Введіть ваше ім'я")
+patronymic = input("Введіть ваше по батькові")
+
+# Видіть у послідовністі: прізвище → ім'я → по батькові
+full_name_sequence1 = f"{surname} - {first_name} - {patronymic}"
+print(full_name_sequence1)
+
+# Вивідить у послідовності: ім'я → батькові → прізвище
+full_name_sequence2 = f"{first_name} - {patronymic} - {surname}"
+print(full_name_sequence2)
+
+# Запит числа, місяця та року народження 
+day = input ("")
+month = input ("")
+year = input ("")
+
+# Вивіть дати народження у різних форматах
+date_dot_format = f"{day}.{month}.{year}"
+date_slash_format = f"{day}/{month}/{year}"
+date_space_format = f"{day} {month} {year}"
+date_dash_format = f"{day}-{month}-{year}"
+
+print("Дата народження:")
+print("3 точками:",date_dot_format)
+print("3 слешами:",date_slash_format)
+print("3 прогалинами:",date_space_format)
+print(" 3тире:",date_dash_format)
